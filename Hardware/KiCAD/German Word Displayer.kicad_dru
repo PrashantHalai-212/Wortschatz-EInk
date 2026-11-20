@@ -1,0 +1,4 @@
+(version 1)
+(rule "Side button pegs"
+  (constraint hole_clearance (min 0.05mm))
+  (condition "A.memberOfFootprint('S?') && B.memberOfFootprint('S?')"))

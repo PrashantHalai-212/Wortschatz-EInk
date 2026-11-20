@@ -1,0 +1,244 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "52c7dbc7-afa8-46b7-8996-467852cd3adb")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 236.22 83.82)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "034f0405-a3dd-46f3-852e-ddb9dba47c63")
+		(property "Sheetname" "SD_Card"
+			(at 236.22 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD_Card.kicad_sch"
+			(at 236.22 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "German Word Displayer"
+				(path "/52c7dbc7-afa8-46b7-8996-467852cd3adb"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 124.46)
+		(size 31.75 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a5b0235e-a7e5-402f-b986-f979e8186af3")
+		(property "Sheetname" "CHARGER & FUEL"
+			(at 147.32 123.7484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CHARGER & FUEL.kicad_sch"
+			(at 147.32 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "German Word Displayer"
+				(path "/52c7dbc7-afa8-46b7-8996-467852cd3adb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 83.82)
+		(size 39.37 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b8ae4150-686c-425e-aec9-c6990c131a1e")
+		(property "Sheetname" "ESP32-S3"
+			(at 187.96 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32-C3.kicad_sch"
+			(at 187.96 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "German Word Displayer"
+				(path "/52c7dbc7-afa8-46b7-8996-467852cd3adb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 83.82)
+		(size 27.94 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cb6ec0ca-b763-4f07-94ab-b6279fe9d5dc")
+		(property "Sheetname" "POWER"
+			(at 149.86 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 149.86 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "German Word Displayer"
+				(path "/52c7dbc7-afa8-46b7-8996-467852cd3adb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 237.49 125.73)
+		(size 27.94 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f29dfd1b-c87f-444a-b67e-3901319713c4")
+		(property "Sheetname" "Display"
+			(at 237.49 125.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 237.49 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "German Word Displayer"
+				(path "/52c7dbc7-afa8-46b7-8996-467852cd3adb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
