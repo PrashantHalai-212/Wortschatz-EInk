@@ -2,7 +2,7 @@
 
 Battery-powered e-ink device that shows random German words with their grammar. Built around an ESP32-S3, designed in KiCad 10, 4-layer PCB made by JLCPCB, hand-assembled.
 
-![Wortschatz PCB](docs/images/top.png)
+![Wortschatz PCB](top.png)
 
 ## Specs
 
