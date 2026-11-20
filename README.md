@@ -52,34 +52,3 @@ Battery-powered e-ink device that shows random German words with their grammar. 
 | USB D− / D+ | IO19 / IO20 |
 | UART0 TX / RX (test pads) | IO43 / IO44 |
 | BOOT | IO0 |
-
-## Files
-
-| File | Description |
-|---|---|
-| `hardware/kicad/` | KiCad 10 project (schematic + PCB + custom libraries) |
-| `hardware/Schematic.pdf` | Schematic, viewable without KiCad |
-| `hardware/BOM.csv` | Bill of materials with LCSC part numbers |
-| `hardware/Gerber.zip` | Gerber and drill files for manufacturing |
-| `docs/` | Project overview PDF and images |
-
-## Ordering the PCB
-
-1. Upload `hardware/Gerber.zip` to [JLCPCB](https://jlcpcb.com).
-2. Select **4 layers, 1.6 mm**. Set the minimum via hole size to **0.2 mm** (the ESP32 footprint's GND pad has 0.2 mm vias).
-3. Order the parts from [LCSC](https://lcsc.com) using `BOM.csv`.
-
-## Status
-
-| | |
-|---|---|
-| ✅ Power rails (5 V, 3.3 V) | Working |
-| ✅ USB ↔ battery switchover | Working |
-| ✅ SD card (read, card detect) | Working |
-| ✅ Flashing via UART0 test pads | Working |
-| 🔧 Native USB | Not enumerating yet, under investigation |
-| 🔧 Firmware (e-paper UI, word database, fuel gauge, deep sleep) | In progress |
-
-## License
-
-MIT
